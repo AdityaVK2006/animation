@@ -20,7 +20,7 @@ cone.position.z = -0.3;
 scene.add(cone);
 
 renderer.setAnimationLoop(function(){
-    cone.rotation.x += 0.01
-    cone.rotation.z += 0.01 
-	renderer.render( scene, camera );
+    //cone.rotation.x += 0.01
+    //cone.rotation.z += 0.01 
+    renderer.render( scene, camera );
 });
